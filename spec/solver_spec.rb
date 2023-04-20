@@ -32,5 +32,10 @@ describe Solver do
           result = @solver.fizzbuzz(3)
           expect(result).to eq("fizz")
       end
+
+      it "should return 'buzz'" do
+          result = @solver.fizzbuzz(5)
+          expect(result).to eq("buzz")
+      end
   end
 end
