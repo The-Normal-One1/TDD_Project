@@ -1,3 +1,5 @@
+require_relative "../solver.rb"
+
 describe Solver do
 
     it "should return 120" do
