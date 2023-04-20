@@ -26,4 +26,11 @@ describe Solver do
       expect(result).to eq('dlrow')
     end
   end
+
+  describe "#fizzbuzz" do  
+      it "should return 'fizz'" do
+          result = @solver.fizzbuzz(3)
+          expect(result).to eq("fizz")
+      end
+  end
 end
