@@ -1,17 +1,15 @@
 class Solver
-    def factorial(n)
-        if n == 0
-            return 1
-        else
-            return n * factorial(n-1)
-        end
-    end
+  def factorial(num)
+    return 1 if num.zero?
 
-    def reverse(word)
-        if word.length <= 1
-            return word
-        else
-            return reverse(word[1..-1]) + word[0]
-        end
-    end
+
+    num * factorial(num - 1)
+  end
+
+  def reverse(word)
+    return word if word.length <= 1
+
+
+    reverse(word[1..]) + word[0]
+  end
 end
