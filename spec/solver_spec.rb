@@ -27,25 +27,25 @@ describe Solver do
     end
   end
 
-  describe "#fizzbuzz" do  
-      it "should return 'fizz'" do
-          result = @solver.fizzbuzz(3)
-          expect(result).to eq("fizz")
-      end
+  describe '#fizzbuzz' do
+    it "should return 'fizz'" do
+      result = @solver.fizzbuzz(3)
+      expect(result).to eq('fizz')
+    end
 
-      it "should return 'buzz'" do
-          result = @solver.fizzbuzz(5)
-          expect(result).to eq("buzz")
-      end
+    it "should return 'buzz'" do
+      result = @solver.fizzbuzz(5)
+      expect(result).to eq('buzz')
+    end
 
-      it "should return 'fizzbuzz'" do
-          result = @solver.fizzbuzz(15)
-          expect(result).to eq("fizzbuzz")
-      end
+    it "should return 'fizzbuzz'" do
+      result = @solver.fizzbuzz(15)
+      expect(result).to eq('fizzbuzz')
+    end
 
-      it "should return '7'" do
-          result = @solver.fizzbuzz(7)
-          expect(result).to eq("7")
-      end
+    it "should return '7'" do
+      result = @solver.fizzbuzz(7)
+      expect(result).to eq('7')
+    end
   end
 end
