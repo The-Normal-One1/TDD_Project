@@ -7,11 +7,11 @@ class Solver
         end
     end
 
-    def reverse(s)
-        if s.length <= 1
-            return s
+    def reverse(word)
+        if word.length <= 1
+            return word
         else
-            return reverse(s[1..-1]) + s[0]
+            return reverse(word[1..-1]) + word[0]
         end
     end
 end
